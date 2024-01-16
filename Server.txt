@@ -1,0 +1,62 @@
+server_logs | INFO flwr 2023-12-27 21:30:28,800 | app.py:163 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+server_logs | INFO flwr 2023-12-27 21:30:28,817 | app.py:176 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+server_logs | INFO flwr 2023-12-27 21:30:28,818 | server.py:89 | Initializing global parameters
+server_logs | INFO flwr 2023-12-27 21:30:28,818 | server.py:276 | Requesting initial parameters from one random client
+server_logs | INFO flwr 2023-12-27 21:32:23,635 | app.py:163 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+server_logs | INFO flwr 2023-12-27 21:32:23,662 | app.py:176 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+server_logs | INFO flwr 2023-12-27 21:32:23,663 | server.py:89 | Initializing global parameters
+server_logs | INFO flwr 2023-12-27 21:32:23,673 | server.py:276 | Requesting initial parameters from one random client
+server_logs | INFO flwr 2023-12-27 21:40:09,046 | app.py:163 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+server_logs | INFO flwr 2023-12-27 21:40:09,068 | app.py:176 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+server_logs | INFO flwr 2023-12-27 21:40:09,069 | server.py:89 | Initializing global parameters
+server_logs | INFO flwr 2023-12-27 21:40:09,069 | server.py:276 | Requesting initial parameters from one random client
+server_logs | INFO flwr 2023-12-27 21:44:47,343 | app.py:163 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+server_logs | INFO flwr 2023-12-27 21:44:47,425 | app.py:176 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+server_logs | INFO flwr 2023-12-27 21:44:47,426 | server.py:89 | Initializing global parameters
+server_logs | INFO flwr 2023-12-27 21:44:47,426 | server.py:276 | Requesting initial parameters from one random client
+server_logs | INFO flwr 2023-12-27 21:44:54,843 | server.py:280 | Received initial parameters from one random client
+server_logs | INFO flwr 2023-12-27 21:44:54,843 | server.py:91 | Evaluating initial parameters
+server_logs | INFO flwr 2023-12-27 21:44:54,843 | server.py:104 | FL starting
+server_logs | DEBUG flwr 2023-12-27 21:44:54,843 | server.py:222 | fit_round 1: strategy sampled 1 clients (out of 1)
+server_logs | DEBUG flwr 2023-12-27 21:44:54,992 | server.py:236 | fit_round 1 received 1 results and 0 failures
+server_logs | DEBUG flwr 2023-12-27 21:44:54,993 | server.py:173 | evaluate_round 1: strategy sampled 1 clients (out of 1)
+server_logs | DEBUG flwr 2023-12-27 21:44:55,012 | server.py:187 | evaluate_round 1 received 1 results and 0 failures
+server_logs | DEBUG flwr 2023-12-27 21:44:55,013 | server.py:222 | fit_round 2: strategy sampled 1 clients (out of 1)
+server_logs | DEBUG flwr 2023-12-27 21:44:55,148 | server.py:236 | fit_round 2 received 1 results and 0 failures
+server_logs | DEBUG flwr 2023-12-27 21:44:55,149 | server.py:173 | evaluate_round 2: strategy sampled 1 clients (out of 1)
+server_logs | DEBUG flwr 2023-12-27 21:44:55,164 | server.py:187 | evaluate_round 2 received 1 results and 0 failures
+server_logs | DEBUG flwr 2023-12-27 21:44:55,165 | server.py:222 | fit_round 3: strategy sampled 1 clients (out of 1)
+server_logs | DEBUG flwr 2023-12-27 21:44:55,295 | server.py:236 | fit_round 3 received 1 results and 0 failures
+server_logs | DEBUG flwr 2023-12-27 21:44:55,296 | server.py:173 | evaluate_round 3: strategy sampled 1 clients (out of 1)
+server_logs | DEBUG flwr 2023-12-27 21:44:55,313 | server.py:187 | evaluate_round 3 received 1 results and 0 failures
+server_logs | INFO flwr 2023-12-27 21:44:55,313 | server.py:153 | FL finished in 0.4698546000290662
+server_logs | INFO flwr 2023-12-27 21:44:55,314 | app.py:226 | app_fit: losses_distributed [(1, 5.232143402099609), (2, 5.232143402099609), (3, 5.232143402099609)]
+server_logs | INFO flwr 2023-12-27 21:44:55,315 | app.py:227 | app_fit: metrics_distributed_fit {'Accuracy': [(1, 0.0), (2, 0.0), (3, 0.0)], 'Precision': [(1, 0.0), (2, 0.0), (3, 0.0)], 'Recall': [(1, 0.0), (2, 0.0), (3, 0.0)], 'F1_Score': [(1, 0.0), (2, 0.0), (3, 0.0)]}
+server_logs | INFO flwr 2023-12-27 21:44:55,315 | app.py:228 | app_fit: metrics_distributed {'Accuracy': [(1, 0.854839), (2, 0.854839), (3, 0.854839)], 'Precision': [(1, 0.847088), (2, 0.847088), (3, 0.847088)], 'Recall': [(1, 0.854839), (2, 0.854839), (3, 0.854839)], 'F1_Score': [(1, 0.850666), (2, 0.850666), (3, 0.850666)]}
+server_logs | INFO flwr 2023-12-27 21:44:55,317 | app.py:229 | app_fit: losses_centralized []
+server_logs | INFO flwr 2023-12-27 21:44:55,317 | app.py:230 | app_fit: metrics_centralized {}
+server_logs | INFO flwr 2023-12-27 21:52:33,759 | app.py:163 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+server_logs | INFO flwr 2023-12-27 21:52:33,872 | app.py:176 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+server_logs | INFO flwr 2023-12-27 21:52:33,873 | server.py:89 | Initializing global parameters
+server_logs | INFO flwr 2023-12-27 21:52:33,873 | server.py:276 | Requesting initial parameters from one random client
+server_logs | INFO flwr 2023-12-27 21:56:06,915 | server.py:280 | Received initial parameters from one random client
+server_logs | INFO flwr 2023-12-27 21:56:06,916 | server.py:91 | Evaluating initial parameters
+server_logs | INFO flwr 2023-12-27 21:56:06,916 | server.py:104 | FL starting
+server_logs | DEBUG flwr 2023-12-27 21:56:09,249 | server.py:222 | fit_round 1: strategy sampled 4 clients (out of 4)
+server_logs | DEBUG flwr 2023-12-27 21:56:09,442 | server.py:236 | fit_round 1 received 4 results and 0 failures
+server_logs | DEBUG flwr 2023-12-27 21:56:09,443 | server.py:173 | evaluate_round 1: strategy sampled 4 clients (out of 4)
+server_logs | DEBUG flwr 2023-12-27 21:56:09,469 | server.py:187 | evaluate_round 1 received 4 results and 0 failures
+server_logs | DEBUG flwr 2023-12-27 21:56:09,469 | server.py:222 | fit_round 2: strategy sampled 4 clients (out of 4)
+server_logs | DEBUG flwr 2023-12-27 21:56:09,668 | server.py:236 | fit_round 2 received 4 results and 0 failures
+server_logs | DEBUG flwr 2023-12-27 21:56:09,670 | server.py:173 | evaluate_round 2: strategy sampled 4 clients (out of 4)
+server_logs | DEBUG flwr 2023-12-27 21:56:09,704 | server.py:187 | evaluate_round 2 received 4 results and 0 failures
+server_logs | DEBUG flwr 2023-12-27 21:56:09,705 | server.py:222 | fit_round 3: strategy sampled 4 clients (out of 4)
+server_logs | DEBUG flwr 2023-12-27 21:56:09,916 | server.py:236 | fit_round 3 received 4 results and 0 failures
+server_logs | DEBUG flwr 2023-12-27 21:56:09,917 | server.py:173 | evaluate_round 3: strategy sampled 4 clients (out of 4)
+server_logs | DEBUG flwr 2023-12-27 21:56:09,940 | server.py:187 | evaluate_round 3 received 4 results and 0 failures
+server_logs | INFO flwr 2023-12-27 21:56:09,941 | server.py:153 | FL finished in 3.024718699976802
+server_logs | INFO flwr 2023-12-27 21:56:09,941 | app.py:226 | app_fit: losses_distributed [(1, 3.6334328651428223), (2, 3.6334328055381775), (3, 3.48809552192688)]
+server_logs | INFO flwr 2023-12-27 21:56:09,942 | app.py:227 | app_fit: metrics_distributed_fit {'Accuracy': [(1, 0.0), (2, 0.0), (3, 0.0)], 'Precision': [(1, 0.0), (2, 0.0), (3, 0.0)], 'Recall': [(1, 0.0), (2, 0.0), (3, 0.0)], 'F1_Score': [(1, 0.0), (2, 0.0), (3, 0.0)]}
+server_logs | INFO flwr 2023-12-27 21:56:09,943 | app.py:228 | app_fit: metrics_distributed {'Accuracy': [(1, 0.899194), (2, 0.899194), (3, 0.903226)], 'Precision': [(1, 0.894257), (2, 0.894694), (3, 0.89987)], 'Recall': [(1, 0.899194), (2, 0.899194), (3, 0.903226)], 'F1_Score': [(1, 0.893934), (2, 0.892843), (3, 0.898651)]}
+server_logs | INFO flwr 2023-12-27 21:56:09,945 | app.py:229 | app_fit: losses_centralized []
+server_logs | INFO flwr 2023-12-27 21:56:09,945 | app.py:230 | app_fit: metrics_centralized {}

@@ -1,0 +1,11 @@
+client_logs | INFO flwr 2023-12-27 21:43:35,906 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+client_logs | DEBUG flwr 2023-12-27 21:43:35,908 | connection.py:42 | ChannelConnectivity.IDLE
+client_logs | DEBUG flwr 2023-12-27 21:43:35,909 | connection.py:42 | ChannelConnectivity.CONNECTING
+client_logs | DEBUG flwr 2023-12-27 21:43:57,999 | connection.py:42 | ChannelConnectivity.TRANSIENT_FAILURE
+client_logs | DEBUG flwr 2023-12-27 21:43:58,218 | connection.py:141 | gRPC channel closed
+client_logs | INFO flwr 2023-12-27 21:44:54,830 | grpc.py:52 | Opened insecure gRPC connection (no certificates were passed)
+client_logs | DEBUG flwr 2023-12-27 21:44:54,834 | connection.py:42 | ChannelConnectivity.IDLE
+client_logs | DEBUG flwr 2023-12-27 21:44:54,835 | connection.py:42 | ChannelConnectivity.CONNECTING
+client_logs | DEBUG flwr 2023-12-27 21:44:54,839 | connection.py:42 | ChannelConnectivity.READY
+client_logs | DEBUG flwr 2023-12-27 21:44:55,354 | connection.py:141 | gRPC channel closed
+client_logs | INFO flwr 2023-12-27 21:44:55,355 | app.py:304 | Disconnect and shut down
